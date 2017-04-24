@@ -1,0 +1,29 @@
+<html>
+<title>Test123</title>
+<Body>
+  <h1>Sample Message</h1>
+  
+  <div align="center">
+	<h1 id="quote"></h1>
+  </div>
+  
+  <script>
+  var quoteArray = [
+	"First quote",
+	"Second quote",
+	"Third quote",
+	"Fourth quote",
+	"Fifth quote",
+	"Sixth quote",
+	"Seventh quote",
+	"Eight quote",
+	"Nineth quote",
+	"Tenth quote"
+	];
+  
+  var randomNumber = Math.floor((Math.random() * 10) + 1);
+  document.getElementById('quote').innerHTML=quoteArray[randomNumber-1];
+  
+  </script>
+</body>
+</html>
